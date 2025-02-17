@@ -1,4 +1,14 @@
 import {
+  http,
+  type Account,
+  type Address,
+  type Chain,
+  type Hex,
+  createPublicClient
+} from "viem";
+import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
+
+import {
   type ComethSmartAccountClient,
   SmartSessionMode,
   createComethPaymasterClient,
@@ -24,14 +34,6 @@ import {
   type Transaction,
   baseOptions
 } from "@okcontract/sdk";
-import {
-  type Account,
-  type Address,
-  type Hex,
-  createPublicClient,
-  http
-} from "viem";
-import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
 
 const apiKey = process.env.COMETH_API_KEY;
 
