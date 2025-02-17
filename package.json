@@ -9,7 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@cometh/connect-sdk-4337": "^1.0.3",
+    "@cometh/connect-sdk-4337": "^1.0.5",
     "@okcontract/sdk": "^0.1.2"
   }
 }

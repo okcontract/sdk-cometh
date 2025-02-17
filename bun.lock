@@ -4,7 +4,7 @@
     "": {
       "name": "smartacc",
       "dependencies": {
-        "@cometh/connect-sdk-4337": "^1.0.3",
+        "@cometh/connect-sdk-4337": "^1.0.5",
         "@okcontract/sdk": "^0.1.2",
       },
       "devDependencies": {
@@ -34,7 +34,7 @@
 
     "@coinbase/wallet-sdk": ["@coinbase/wallet-sdk@4.3.0", "", { "dependencies": { "@noble/hashes": "^1.4.0", "clsx": "^1.2.1", "eventemitter3": "^5.0.1", "preact": "^10.24.2" } }, "sha512-T3+SNmiCw4HzDm4we9wCHCxlP0pqCiwKe4sOwPH3YAK2KSKjxPRydKu6UQJrdONFVLG7ujXvbd/6ZqmvJb8rkw=="],
 
-    "@cometh/connect-sdk-4337": ["@cometh/connect-sdk-4337@1.0.3", "", { "dependencies": { "@noble/curves": "^1.6.0", "@rhinestone/module-sdk": "^0.2.3", "@simplewebauthn/server": "^7.2.0", "@types/cbor-js": "^0.1.1", "@types/elliptic": "^6.4.18", "@types/psl": "^1.1.3", "@types/qrcode": "^1.5.5", "axios": "^1.6.8", "bowser": "^2.11.0", "cbor-js": "^0.1.0", "elliptic": "^6.5.7", "permissionless": "^0.2.23", "psl": "^1.9.0", "qrcode": "^1.5.3" }, "peerDependencies": { "viem": "^2.22.2", "wagmi": "^2" } }, "sha512-9cH4Fy3tU8lXA8193cQguBeJOruYYh13qw08/bh8q9k2sThP7ef1R3AFRFlQK1w4M/gfkr0idA007Ik6htMgSg=="],
+    "@cometh/connect-sdk-4337": ["@cometh/connect-sdk-4337@1.0.5", "", { "dependencies": { "@noble/curves": "^1.6.0", "@rhinestone/module-sdk": "^0.2.3", "@simplewebauthn/server": "^7.2.0", "@types/cbor-js": "^0.1.1", "@types/elliptic": "^6.4.18", "@types/psl": "^1.1.3", "@types/qrcode": "^1.5.5", "axios": "^1.6.8", "bowser": "^2.11.0", "cbor-js": "^0.1.0", "elliptic": "^6.5.7", "permissionless": "^0.2.23", "psl": "^1.9.0", "qrcode": "^1.5.3" }, "peerDependencies": { "viem": "^2.22.2", "wagmi": "^2" } }, "sha512-H90iytrnJwj85VbvZ0HMsutbk8FgEoZrfhLhaxjoV9K0FQcf4HxHtJ6Jn4tFddofUXMvqDXdbYALOzWeEjQWfw=="],
 
     "@ecies/ciphers": ["@ecies/ciphers@0.2.2", "", { "peerDependencies": { "@noble/ciphers": "^1.0.0" } }, "sha512-ylfGR7PyTd+Rm2PqQowG08BCKA22QuX8NzrL+LxAAvazN10DMwdJ2fWwAzRj05FI/M8vNFGm3cv9Wq/GFWCBLg=="],
 
