@@ -182,12 +182,17 @@ export const getOKCore = async (
   const smartAccountAddress = sess.account.account?.address;
   console.log({ smartAccountAddress });
 
+  // Create a fake key for the session, until SDK update.
+  const fakeKey = generatePrivateKey();
+  const fakeAccount = privateKeyToAccount(fakeKey);
+
   // Retrieves the existing smart account.
   const sessionKeyAccount = await createSafeSmartAccount({
     apiKey,
     chain: chainToViem(chain),
     smartAccountAddress,
-    smartSessionSigner: sessionKeySigner
+    smartSessionSigner: sessionKeySigner,
+    signer: fakeAccount
   });
 
   console.log({ sessionKeyAccount: sessionKeyAccount.address });
