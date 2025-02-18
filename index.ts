@@ -1,16 +1,17 @@
 import { privateKeyToAccount } from "viem/accounts";
 
-import { chainToViem, optimism } from "@okcontract/multichain";
+import { chainToViem } from "@okcontract/multichain";
 import { type AppID, buildTX } from "@okcontract/sdk";
 
 import { getOKCore, getSession, getSmartAccount } from "./account";
+import { arbitrum } from "./arbitrum";
 import { getPrivateKey } from "./readKey";
 import { REPL } from "./repl";
 
 // ==================== STEP 1: CREATE THE ACCOUNT =====================
 
 const id = "smartacc" as AppID;
-const chain = optimism;
+const chain = arbitrum;
 const interaction = "kSXS27G15xN8KPMYsRsT"; // free OK mint
 
 // We simulate an existing EOA that is the "parent" of the smart account.

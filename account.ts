@@ -185,7 +185,7 @@ export const getOKCore = async (
   // Retrieves the existing smart account.
   const sessionKeyAccount = await createSafeSmartAccount({
     apiKey,
-    chain,
+    chain: chainToViem(chain),
     smartAccountAddress,
     smartSessionSigner: sessionKeySigner
   });
