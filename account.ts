@@ -1,10 +1,10 @@
 import {
+  http,
   type Account,
   type Address,
   type Chain,
   type Hex,
-  createPublicClient,
-  http
+  createPublicClient
 } from "viem";
 import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
 
@@ -218,8 +218,8 @@ export const getOKCore = async (
   }).extend(smartSessionActions());
 
   console.log({
-    client: sessionKeyClient.account.address,
-    chain: await sessionKeyClient.getChainId()
+    client: sessionKeyClient.account.address
+    // chain: await sessionKeyClient.getChainId()
   });
 
   // Question: Not exported from cometh sdk? Differs from @rhinestone

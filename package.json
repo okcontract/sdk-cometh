@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@cometh/connect-sdk-4337": "^1.0.6-dev.1",
-    "@okcontract/sdk": "^0.1.2"
+    "@okcontract/sdk": "^0.1.3"
   }
 }
